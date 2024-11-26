@@ -1,0 +1,112 @@
+.container {
+    /* text-align: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: clamp(1.25rem, 0.993rem + 1.176vi, 3.125rem);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.test-1 {
+    display: flex;
+    align-items: center;
+    row-gap: 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dada {
+    color: red;
+}
+
+.personCard {
+    padding: 20px;
+    box-shadow: 8px 8px 20px gray;
+    border-radius: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnDel {
+    background-color: red;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.btnDel:hover {
+    transform: scale(1.1);
+}
+
+#opacity {
+    display: none;
+    background-color: rgba(0, 0, 0);
+    height: 100vh;
+    z-index: 0;
+}
+
+
+.game__contact {}
+
+.modal {
+    z-index: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 550px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.modal-content {}
+
+.btn-block {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+#reset {
+    background-color: none;
+    border: none;
+    padding: 25px 100px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    color: rgb(61, 61, 61);
+    border-radius: 10px;
+    background-color: rgb(171, 171, 171);
+}
+
+#canceledReset {
+    border: none;
+    color: none;
+    background-color: none;
+    padding: 25px 100px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+#canceledReset:hover {
+    color: rgb(61, 61, 61);
+    border-radius: 10px;
+    background-color: rgb(171, 171, 171);
+}
+
+.res {
+    display: none;
+}
